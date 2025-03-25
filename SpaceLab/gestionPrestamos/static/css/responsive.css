@@ -1,0 +1,225 @@
+/* lg */ 
+@media (min-width: 1200px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	#home-carousel  .item {
+		height: 500px;
+	}
+
+	.carousel-caption h1 {
+		font-size:26px;
+		margin-bottom:0;
+		line-height:27px;
+		letter-spacing:2px;
+		font-weight:100;
+	}
+
+	.carousel-caption h2 {
+		font-size:26px;
+		font-weight:600;
+		margin-top:0px;
+		letter-spacing:2px;
+		margin-bottom:20px;
+	}
+	
+	#our-team, #our-works, #services, #contact{
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	#pricing{
+		padding-top: 180px;
+	}
+
+	.team-member .member-info h4{
+		font-size: 16px;
+	}
+
+	.team-member .member-info span{
+		font-size: 12px;
+	}
+
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.st-navbar ul li a{
+		margin-left: 13px;
+		margin-right: 13px;
+	}
+
+	#home-carousel  .item {
+		height: 500px;
+	}
+
+	.carousel-caption h1 {
+		font-size:30px;
+		margin-bottom:0;
+		line-height:27px;
+		letter-spacing:2px;
+		font-weight:100;
+	}
+
+	.carousel-caption h2 {
+		font-size:30px;
+		font-weight:600;
+		margin-top:0px;
+		text-transform:none;
+		letter-spacing:2px;
+		margin-bottom:20px;
+	}
+
+	#about-us .about-us {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 9%;
+	}
+
+	.scroll-up{
+		display: none !important;
+	}
+
+	#our-team, #our-works, #services, #contact{
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	#pricing{
+		padding-top: 180px;
+	}
+
+	#about-us .about-us .btn-send {
+		margin-top: 12px;
+	}
+
+
+
+}
+
+/* xs */
+@media (max-width: 767px) {
+
+	.logo{
+		margin-left: 15px;
+		width: 80px;
+		height: 80px;
+	}
+
+	#pricing .logo{
+		margin-left: 15px;
+		width: 80px;
+		height: 80px;
+	}
+
+	.st-navbar .navbar-header{
+		max-height: 80px;
+	}
+
+	.navbar-nav{
+		background-color: #f5f5f5;
+	}
+
+	.st-navbar .navbar-collapse ul{
+		margin-top: 5px;
+	}
+
+	#home-carousel  .item {
+		height: 380px;
+	}
+
+	.carousel-caption h1 {
+		font-size:16px;
+		margin-bottom:0;
+		line-height:20px;
+		letter-spacing:2px;
+		font-weight:100;
+		margin-bottom:10px;
+	}
+
+	.carousel-caption h2 {
+		font-size:16px;
+		font-weight:600;
+		margin-top:0px;
+		text-transform:none;
+		letter-spacing:2px;
+		margin-bottom:5px;
+	}
+
+	.carousel-caption p {
+		font-size:12px;
+	}
+
+	.scroll-up{
+		display: none !important;
+	}
+
+	.footer-social-icons {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.copyright{
+		text-align: center;
+	}
+
+	#contact{
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.contact-info{
+		margin-bottom: 50px;
+	}
+
+	#fun-facts .fun-fact{
+		border-right: 0px;
+		margin-bottom: 30px;
+	}
+
+	#about-us .our-office{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#testimonial{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	#about-us .about-us {
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+
+	#our-team, #pricing, #our-works, #services{
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.st-service {
+		margin-top: 50px;
+	}
+
+	.portfolio-content .portfolio-overlay h5 {
+		font-size: 10px;
+		margin-bottom: 2px;
+	}
+
+	.portfolio-content .portfolio-overlay p {
+		font-size: 10px;
+	}
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+
+
+
+}
